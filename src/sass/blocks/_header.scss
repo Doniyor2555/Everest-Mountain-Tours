@@ -1,0 +1,89 @@
+.promo{
+  background: url("../img/mainMoutain.jpg")center (center/cover) no-repeat; 
+  height: 650px; 
+  &__subtitle{
+    font-weight: 600;
+    font-size: 98px;
+    color: #FCFCFC;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  &__btn{
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 45px;
+    border: 2px solid #FCFCFC;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FCFCFC;
+    cursor: pointer;
+  }
+}
+
+.header{
+  padding: 42px 0 204px 0;
+  &__logo{
+    font-weight: 600;
+    font-size: 24px;
+    color: #FCFCFC;
+  }
+  &__subtitle{
+    display: flex;
+    margin-left: 250px;
+    margin-top: -25px;
+  }
+  &__subtext{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FCFCFC;
+    margin-left: 30px;
+    &:nth-child(1){
+      margin-left: 0;
+    }
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: -25px;
+  }
+  &__phone{
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FCFCFC;
+    top: -7px;
+  }
+  &__searchImg{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  &__personImg{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  &__search{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: 43px;
+    background: rgba(252, 252, 252, 0.4);
+  }
+  &__person{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-left: 30px;
+    background: rgba(252, 252, 252, 0.4);
+  }
+}

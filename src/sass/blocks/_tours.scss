@@ -1,0 +1,28 @@
+.tours{
+  padding: 140px 0 0 0;
+  min-height: 790px;
+  &__subtitle{
+  font-weight: 600;
+  font-size: 52px;
+  color: #061B28;
+  }
+  &__text{
+    width: 350px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #061B28;
+    margin-top: 50px;
+  }
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  &__wrap{
+    display: flex;
+  }
+  &__map{
+    margin-top: 93px;
+    margin-left: 120px;
+  }
+}

@@ -1,0 +1,47 @@
+.mountains{
+  padding: 140px 0 0 0;
+  &__subtitle{
+    display: block;
+    font-weight: 600;
+    font-size: 52px;
+    color: #061B28;
+    text-align: center;
+  }
+  &__imgs{
+    display: flex;
+    margin-top: 80px;
+  }
+  &__img{
+    margin-left: 31px;
+    &:nth-child(1){
+      margin-left: 0;
+    }
+  }
+  &__arrow{
+    width: 35px;
+    height: 35px;
+    background-color: #E6E8EA;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+  }
+  &__arrowrleft{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  &__arrowright{
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transform: rotate(-180deg);
+  }
+  &__arrows{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

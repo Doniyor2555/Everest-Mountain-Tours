@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/tours";
+@import "blocks/mountains";
